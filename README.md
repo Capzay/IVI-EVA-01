@@ -180,7 +180,7 @@ A feature-rich Discord bot designed for the ivi vr esports discord server, provi
 4. **Run the Container**
 
    ```bash
-   docker run -d --name ivi-bot -v ${PWD}/.env:/app/.env ivi-eva-01
+   docker run -d --restart always --name ivi-bot ivi-eva-01
    ```
 
    Or with bind mounts for persistent data:
