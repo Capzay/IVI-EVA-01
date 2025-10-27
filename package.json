@@ -1,0 +1,27 @@
+{
+  "name": "clan-bot",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "npm run build && node --enable-source-maps dist/index.js",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "node-cron": "^4.2.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
