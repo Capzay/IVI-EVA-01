@@ -456,7 +456,7 @@ This project is licensed under the ISC License.
 
 ## 🎊 Acknowledgments
 
-Built for the **ivi** gaming community with ❤️
+Built for the **ivi** vr esports
 
 ---
 
