@@ -1,6 +1,6 @@
 # IVI-EVA-01 Discord Bot 🤖
 
-A feature-rich Discord bot designed for the ivi gaming community, providing role management, availability tracking, leveling systems, and game-specific ping features.
+A feature-rich Discord bot designed for the ivi vr esports discord server, providing role management, availability tracking, leveling systems, and game-specific ping features.
 
 ## 📋 Table of Contents
 
