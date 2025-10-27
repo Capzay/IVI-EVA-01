@@ -27,7 +27,7 @@ module.exports = {
   ) {
     await interaction.deferReply({ ephemeral: true });
 
-    const channel_to_be_used_in = "1343720230081400963";
+    const channel_to_be_used_in = "1343720230081400963"; // CHANNEL_ID: BRC ping command channel
 
     if (!interaction.channel) return;
     if (!interaction.guild) return;

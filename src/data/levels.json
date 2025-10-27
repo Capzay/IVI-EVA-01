@@ -1,1 +1,9 @@
-{}
+{
+  "roles": {
+    "Level 1": "role_id_here",
+    "Level 2": "role_id_here",
+    "Level 3": "role_id_here",
+    "Level 4": "role_id_here",
+    "Level 5": "role_id_here"
+  }
+}

@@ -51,7 +51,7 @@ async function changeLevel(
     if (member.roles.cache.has(roleId)) {
       if (message.channel instanceof TextChannel) {
         message.channel.send(
-          `${message.member} ivi Man has noticed your loyalty... Here's a promotion for your service! <:ivilogo:1314905850292342784>`
+          `${message.member} ivi Man has noticed your loyalty... Here's a promotion for your service! <:ivilogo:1314905850292342784>` // EMOJI_ID: ivi logo custom emoji
         );
       }
     }

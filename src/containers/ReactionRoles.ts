@@ -14,30 +14,30 @@ import {
 
 const gameRoles = [
   {
-    id: "1343578200487366666",
+    id: "1343578200487366666", // your_role_id
     label: "Looking to Play - OD",
   },
   {
-    id: "1343578300135772200",
+    id: "1343578300135772200", // your_role_id
     label: "Looking to Play - BRC",
   },
   {
-    id: "1343578328979869706",
+    id: "1343578328979869706", // your_role_id
     label: "Looking to Play - BS",
   },
   {
-    id: "1343578330644877374",
+    id: "1343578330644877374", // your_role_id
     label: "Looking to Play - GTAG",
   },
 ];
 
 const mediaRoles = [
   {
-    id: "1343715989476610081",
+    id: "1343715989476610081", // ROLE_ID: Live Ping role
     label: "Live Ping",
   },
   {
-    id: "1343716033730580591",
+    id: "1343716033730580591", // ROLE_ID: ivi Media Ping role
     label: "ivi Media Ping",
   },
 ];

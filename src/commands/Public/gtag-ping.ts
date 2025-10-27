@@ -27,7 +27,7 @@ module.exports = {
   ) {
     await interaction.deferReply({ ephemeral: true });
 
-    const channel_to_be_used_in = "1343721013518532650";
+    const channel_to_be_used_in = "1343721013518532650"; // CHANNEL_ID: GTAG ping command channel
 
     if (!interaction.channel) return;
     if (!interaction.guild) return;

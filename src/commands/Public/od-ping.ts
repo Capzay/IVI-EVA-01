@@ -27,7 +27,7 @@ module.exports = {
   ) {
     await interaction.deferReply({ ephemeral: true });
 
-    const channel_to_be_used_in = "1343719901314945129";
+    const channel_to_be_used_in = "1343719901314945129"; // CHANNEL_ID: OD ping command channel
 
     if (!interaction.channel) return;
     if (!interaction.guild) return;
