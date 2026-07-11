@@ -10,7 +10,8 @@ import { getEnvVariable } from "../../util/getEnvVar";
 import { ReactionRolesContainer } from "../../containers/ReactionRoles";
 import { RulesContainer } from "../../containers/Rules";
 import { ResourcesContainer } from "../../containers/Resources";
-import { AvailabilityContainer } from "../../containers/Availability";
+import { logoAttachment } from "../../util/logo";
+import { bannerAttachment, BANNERS } from "../../util/banners";
 
 async function clearChannel(channel: TextChannel) {
   let fetched;
@@ -50,34 +51,27 @@ module.exports = {
       getEnvVariable("RULES")
     ) as TextChannel;
     await clearChannel(rulesChannel);
-    const availabilityChannel = client.channels.cache.get(
-      getEnvVariable("AVAILABILITY")
-    ) as TextChannel;
-    await clearChannel(availabilityChannel);
 
     const rolesContainer = ReactionRolesContainer();
     if (!rolesContainer) return;
     await reactionRolesChannel.send({
       flags: MessageFlags.IsComponentsV2,
       components: [rolesContainer],
+      files: [logoAttachment(), bannerAttachment(BANNERS.roles)],
     });
 
     const rulesContainer = RulesContainer();
     await rulesChannel.send({
       flags: MessageFlags.IsComponentsV2,
       components: [rulesContainer],
+      files: [logoAttachment(), bannerAttachment(BANNERS.rules)],
     });
 
     const resourcesContainer = ResourcesContainer();
     await resourcesChannel.send({
       flags: MessageFlags.IsComponentsV2,
       components: [resourcesContainer],
-    });
-
-    const availabilityContainer = AvailabilityContainer();
-    await availabilityChannel.send({
-      flags: MessageFlags.IsComponentsV2,
-      components: [availabilityContainer],
+      files: [logoAttachment(), bannerAttachment(BANNERS.socials)],
     });
 
     return interaction.editReply("Done!");

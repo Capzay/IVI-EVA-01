@@ -1,0 +1,52 @@
+{
+  "channelId": null,
+  "messageId": null,
+  "categories": [
+    {
+      "name": "// ivi Staff and Management",
+      "teams": [
+        {
+          "emoji": "<:iviFounders:1384372051279609887>",
+          "name": "Founders",
+          "players": ["Virtual-ON", "seby4k", "Gooblin", "Beaver"]
+        },
+        {
+          "emoji": "<:iviDirectors:1384372181051510914>",
+          "name": "Board of Directors",
+          "players": ["Virtual-ON", "seby4k", "Gooblin", "DUCKIZ", "Fleezi", "squarehead5"]
+        },
+        {
+          "emoji": "<:iviLogo:1314905850292342784>",
+          "name": "Staff and Moderation",
+          "players": ["Capzay", "beige", "potato"]
+        }
+      ]
+    },
+    {
+      "name": "// ivi Rosters",
+      "teams": [
+        {
+          "emoji": "<:iviPink:1314906186717466627>",
+          "name": "ivi Orion Drift EU",
+          "players": ["Gooblin (*Captain*)", "Dubszx (*Co-Captain*)", "zenosrq", "PESKYYY", "Stef_yuh"]
+        },
+        {
+          "emoji": "<:iviPurple:1330971941221437502>",
+          "name": "ivi Orion Drift NA",
+          "players": ["Monster (*Captain*)", "N3mblex (*Co-Captain*)", "Milkyway", "slip", "salvatorefr", "mffinn"]
+        },
+        {
+          "emoji": "<:iviRed:1314906057180581978>",
+          "name": "ivi VAIL EU",
+          "players": ["Gooblin (*Captain*)", "Nialldash (*Co-Captain*)", "Carnage", "Billiam", "Xeno", "TAZz", "QwiK", "Tw1sty"]
+        },
+        {
+          "emoji": "<:iviOrange:1315723582294196295>",
+          "name": "ivi VAIL NA",
+          "players": ["squarehead5 (*Captain*)", "Tay (*Co-Captain*)", "Saru (*Co-Captain*)", "unpeak", "Bentley", "Virtuous", "Vivid", "Yslayer"]
+        }
+      ]
+    }
+  ],
+  "footer": "Please note: ivi rosters are **strictly invite-only** - this includes adding a member to an existing ivi roster, or bringing a new title into the organisation including a roster alongside it. Do not ping captains or staff about joining the team, excessive requests will result in timeouts, kicks, and bans."
+}

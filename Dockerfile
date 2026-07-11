@@ -7,6 +7,5 @@ WORKDIR /app
 COPY . /app
 RUN npm install
 RUN npm run build
-RUN mkdir src/data/availability
 
 CMD ["node", "--enable-source-maps", "dist/index.js"]
