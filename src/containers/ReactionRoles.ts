@@ -53,7 +53,7 @@ const pingRoles: RoleButton[] = [
     label: "ivi Media Ping",
     emoji: "<:iviWhite:1317978667296755854>",
   },
-  { id: "Event Ping", label: "1527173970275729439", emoji: ":tada:" },
+  { id: "Event Ping", label: "1527173970275729439", emoji: "🎉" },
 ];
 
 function roleSection(role: RoleButton) {
