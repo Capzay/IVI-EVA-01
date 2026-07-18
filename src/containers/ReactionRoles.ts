@@ -53,6 +53,7 @@ const pingRoles: RoleButton[] = [
     label: "ivi Media Ping",
     emoji: "<:iviWhite:1317978667296755854>",
   },
+  { id: "Event Ping", label: "1527173970275729439", emoji: ":tada:" },
 ];
 
 function roleSection(role: RoleButton) {
@@ -64,7 +65,7 @@ function roleSection(role: RoleButton) {
 
   return new SectionBuilder()
     .addTextDisplayComponents(
-      new TextDisplayBuilder().setContent(`- ${role.label}`)
+      new TextDisplayBuilder().setContent(`- ${role.label}`),
     )
     .setButtonAccessory(button);
 }
@@ -78,18 +79,18 @@ export function ReactionRolesContainer() {
     .addTextDisplayComponents(
       new TextDisplayBuilder().setContent("**COLLECT YOUR ROLES**"),
       new TextDisplayBuilder().setContent(
-        "If you want to claim a role for a different community, or change what you get pinged for, click the corresponding buttons below."
-      )
+        "If you want to claim a role for a different community, or change what you get pinged for, click the corresponding buttons below.",
+      ),
     )
     .setThumbnailAccessory(logoThumbnail());
 
   const communityHeader = new TextDisplayBuilder().setContent(
-    "## Community Roles"
+    "## Community Roles",
   );
   const pingHeader = new TextDisplayBuilder().setContent("## Ping Roles");
 
   const footer = new TextDisplayBuilder().setContent(
-    "-# If you already have a role and you want to remove it, click the button anyway, it'll take it away."
+    "-# If you already have a role and you want to remove it, click the button anyway, it'll take it away.",
   );
 
   const separator = new SeparatorBuilder({
